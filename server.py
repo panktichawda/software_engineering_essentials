@@ -93,6 +93,6 @@ def build_users_data():
             person_dict[user_id].add_friend(person_dict[friend_id])
  
 if __name__ == '__main__':
-    build_users_data()ser
+    build_users_data()
     app.run()
     
