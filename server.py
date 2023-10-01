@@ -80,8 +80,7 @@ def suggest_friends(person_id):
     new_friends = [friend.user_id for friend in person_obj.suggest_friends()]
     return json.dumps({person_obj.user_id: new_friends})
 
-
-if __name__ == '__main__':
+def build_users_data():
     user_data = read_json_files_from_directory(directory_path)
     # time.sleep(10)
     for user_id, user_info in user_data.items():
@@ -92,4 +91,8 @@ if __name__ == '__main__':
     for user_id, user_info in user_data.items():
         for friend_id in user_info['friends']:
             person_dict[user_id].add_friend(person_dict[friend_id])
+ 
+if __name__ == '__main__':
+    build_users_data()ser
     app.run()
+    
