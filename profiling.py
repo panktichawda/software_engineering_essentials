@@ -2,10 +2,9 @@ import server
 import timeit
 import utils
 user_data = utils.build_users_data('./users')
-server.build_users_data()
 
 def my_code():
-    result = user_data['Person_77'].suggest_friends()
+    result = user_data['user1'].suggest_friends()
     # print(result)
 
 execution_time_seconds = timeit.timeit(
