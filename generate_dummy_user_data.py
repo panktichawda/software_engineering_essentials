@@ -23,7 +23,7 @@ PREFIX = 'Person_'
 
 # This will decide how dense our friendship's graph will be....
 # This number should be less than NUM_USERS
-MAX_NUMBER_OF_FRIENDS = 8
+MAX_NUMBER_OF_FRIENDS = int(NUM_USERS * (0.5))
 
 PERSON_DICT: Dict[str, person.Person] = dict()
 
