@@ -1,0 +1,26 @@
+[
+  {
+    "user_id": "user1",
+    "first_name": "FirstName1",
+    "last_name": "LastName1",
+    "friends": ["user2", "user3", "user4"]
+  },
+  {
+    "user_id": "user2",
+    "first_name": "FirstName2",
+    "last_name": "LastName2",
+    "friends": ["user1"]
+  },
+  {
+    "user_id": "user3",
+    "first_name": "FirstName3",
+    "last_name": "LastName3",
+    "friends": ["user1"]
+  },
+  {
+    "user_id": "user4",
+    "first_name": "FirstName4",
+    "last_name": "LastName4",
+    "friends": ["user1"]
+  }
+]

@@ -1,4 +1,3 @@
-import server
-
-server.build_users_data()
-print(server.get_user('201501200'))
+import utils
+user_data = utils.build_users_data('./users')
+print(user_data['user1'])
