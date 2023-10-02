@@ -5,7 +5,9 @@ import person
 import time
 from typing import Dict, Any
 
-directory_path = "./users"
+# directory_path = "./users"
+directory_path = "./users_dummy"
+
 app = Flask(__name__)
 person_dict: Dict[str, person.Person] = dict()
 styles = """
