@@ -4,8 +4,9 @@ import person
 import utils
 from typing import Dict, Any
 
-# Path where the json files are stored.
-directory_path = "./users"
+# directory_path = "./users"
+directory_path = "./users_dummy"
+
 app = Flask(__name__)
 person_dict: Dict[str, person.Person] = dict()
 
