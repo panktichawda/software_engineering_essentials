@@ -1,9 +1,0 @@
-[
-    {
-      "user_id": "UserID",
-      "first_name": "User_First_Name",
-      "last_name": "User_Last_Name",
-      "friends": ["FRIEND_ID_1", "FRIEND_ID_2"]
-    }
-  ]
-  
