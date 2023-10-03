@@ -1,0 +1,8 @@
+[
+    {
+      "user_id": "ENROLLMENT_ID",
+      "first_name": "User_First_Name",
+      "last_name": "User_Last_Name",
+      "friends": ["FRIEND_1_ENROLLMENT_ID", "FRIEND_2_ENROLLMENT_ID"]
+    }
+  ]
