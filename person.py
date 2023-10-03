@@ -21,9 +21,8 @@ class Person:
 
     def find_mutual_friends(self, person: "Person") -> List["Person"]:
         """Find common friend between 2 friends."""
-        my_friends = {friend.user_id: friend for friend in self.get_friends()}
-        person_friends = {friend.user_id: friend for friend in person.get_friends()}
-        return [my_friends[mutual_friend] for mutual_friend in set(my_friends.keys()).intersection(person_friends.keys())]
+        # Implement logic here to find mutual friends between self and person.
+        return []
 
     def suggest_friends(self) -> List["Person"]:
         """Suggest new friend based on current friends."""

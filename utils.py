@@ -50,11 +50,7 @@ def convert_json_to_objects(
     """Create class object from provided json data."""
 
     user_dict: Dict[str, person.Person] = dict()
-    for user_id, user_info in user_data.items():
-        person_obj = person.Person(user_id=user_id,
-                                   first_name=user_info['first_name'],
-                                   last_name=user_info['last_name'])
-        user_dict[user_id] = person_obj
+    # Add code here to create the Person object from user_data and put it in user_dict
     return user_dict
 
 
