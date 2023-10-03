@@ -32,7 +32,7 @@ class Person:
         for friend in friends:
             friends_list: List[str] = [
                 suggested_friend for suggested_friend in friend.get_friends()
-                if suggested_friend not in friends and suggested_friend != self
+                if suggested_friend not in friends
                 and friend not in new_friends
             ]
             new_friends.extend(friends_list)
