@@ -28,7 +28,7 @@ class TestPerson(unittest.TestCase):
         # Remove the [ ] aorund james to create a error
         self.assertEqual(john.find_mutual_friends(jane), [james])
 
-    def test_mutual_friends(self):
+    def test_suggest_friends(self):
         john = person.Person("1", "John", "Doe")
         james = person.Person("2", "James", "Brown")
         jane = person.Person("3", "Jane", "Brown")
